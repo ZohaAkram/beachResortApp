@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
-
+import home from'./pages/home';
+import room from'./pages/room';
+import error from'./pages/error';
+import singleRoom from'./pages/singleRoom';
 function App() {
   return (
-    <h1>Hello from app</h1>
+    <>Hello from app</>
   );
 }
 
