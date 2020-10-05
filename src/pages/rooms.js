@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const rooms = () => {
+export const Rooms = () => {
     return (
         <div>
             hello from rooms page
         </div>
     )
 }
-export default rooms;
+export default Rooms;
