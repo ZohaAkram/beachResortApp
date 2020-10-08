@@ -3,7 +3,8 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Service from "../components/service";
-import FeaturedRooms from '../components/FeaturedRooms'
+import FeaturedRooms from "../components/FeaturedRooms";
+import Button from "../components/StyledHero";
 export const Home = () => {
   return (
     <>
@@ -18,8 +19,8 @@ export const Home = () => {
         </Banner>
       </Hero>
       <Service />
-      <FeaturedRooms/>
-    </>
+      <FeaturedRooms />
+         </>
   );
 };
 export default Home;
