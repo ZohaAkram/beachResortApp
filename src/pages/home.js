@@ -20,6 +20,7 @@ export const Home = () => {
       </Hero>
       <Service />
       <FeaturedRooms />
+      <h5 style={{textAlign:"center"}}>Made by Zoha Akram 😊 </h5>
          </>
   );
 };
